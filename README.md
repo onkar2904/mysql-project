@@ -3,7 +3,7 @@
 ### 1] hr_database.sql
 created  HR database  
 ### 2] emp_table.sql
-created table named employee with information of emp_no, birth_date, first_name, last_name, gender, hire_date and salary
+created table named employee with information of employee number, birth date, name, gender, hiring date and salary
 ### 3] emp_data_insert.sql
 Inserted data into employee table of HR database
 ### 4] analysis_1.sql
