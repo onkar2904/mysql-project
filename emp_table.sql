@@ -1,10 +1,10 @@
 USE HR;
-CREATE TABLE  emp  (
-   emp_no  int(11) NOT NULL,
-   birth_date  date NOT NULL,
-   first_name  varchar(14) NOT NULL,
-   last_name  varchar(16) NOT NULL,
-   gender  enum('M','F') NOT NULL,
-   hire_date  date NOT NULL,
-   salary  float(8,2) DEFAULT 7850.00
+CREATE TABLE  HR.emp  (
+   emp_no  INT (11) NOT NULL,
+   birth_date  DATE NOT NULL,
+   first_name  VARCHAR (14) NOT NULL,
+   last_name  VARCHAR (16) NOT NULL,
+   gender  ENUM ('M','F') NOT NULL,
+   hire_date  DATE, NOT NULL,
+   salary  FLOAT (8,2) DEFAULT 7850.00
 ) ;
